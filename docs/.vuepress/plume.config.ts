@@ -23,9 +23,11 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/DawnEcho1254' },
+    { icon: 'qq', link: 'https://qm.qq.com/q/xC1YnDbL4k' },
+    { icon: 'bilibili', link: 'https://space.bilibili.com/1904612471' },
   ],
-  // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+    navbarSocialInclude: ['github', 'qq', 'bilibili'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
