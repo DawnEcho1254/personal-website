@@ -4,7 +4,7 @@ externalLinkIcon: false
 config:
   -
     type: banner
-    banner: https://www.todaybing.com/api/today/cn
+    banner: https://t.alcy.cc/moe
     bannerMask:
       light: 0.1
       dark: 0.3

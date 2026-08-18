@@ -84,7 +84,7 @@ export default defineUserConfig({
     // },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-    // readingTime: true,
+     readingTime: false,
 
     /**
      * markdown
@@ -115,9 +115,9 @@ export default defineUserConfig({
     //     kotlin: true,     // ::: kotlin-repl
     //     python: true,     // ::: python-repl
     //   },
-    //   math: {             // 启用数学公式
-    //     type: 'katex',
-    //   },
+       math: {             // 启用数学公式
+         type: 'mathjax',
+       },
     //   chartjs: true,      // 启用 chart.js
     //   echarts: true,      // 启用 ECharts
     //   mermaid: true,      // 启用 mermaid
